@@ -1,0 +1,17 @@
+<div class="container">
+  <div class="row">
+    <div class="card text-white bg-danger mb-12" style="max-width: 100%;">
+      <div class="card-header"></div>
+      <div class="card-body">
+        <h5 class="card-title"></h5>
+        <div class="help-block">
+          <div class="wrapper">
+          <input type="text" name="input" id="input" (keyup)="onKeyPress($event.target.value)" #input [(ngModel)]="word">
+        </div>
+        </div>
+        <div id="text">Translated Text: {{text}}</div>
+        <button type="button" class="btn btn-warning" (click)="goToResultPage(input.value)">OK - continue</button>
+      </div>
+    </div>
+  </div>
+</div>

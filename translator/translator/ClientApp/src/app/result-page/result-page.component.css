@@ -1,0 +1,18 @@
+.card > .card-header {
+    background-color: red !important;
+    color: white !important;
+    height: 200px;
+  }
+  
+  .card > .card-body {
+    background-color: white !important;
+    color: black !important;
+    height: 600px;
+    border: 2px solid red;
+  }
+  
+  #text {
+    font-size: 30px;
+    margin-left: 85px;
+    margin-top:45px;
+  }
